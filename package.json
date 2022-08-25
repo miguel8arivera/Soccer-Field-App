@@ -1,0 +1,40 @@
+{
+	"name": "soccer-field-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"lint": "eslint --ext .js,.jsx,.ts,.tsx,"
+	},
+	"dependencies": {
+		"@googlemaps/react-wrapper": "^1.1.35",
+		"@react-google-maps/api": "^2.12.2",
+		"bootswatch": "^5.2.0",
+		"google-map-react": "^2.2.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/google-map-react": "^2.1.7",
+		"@types/google.maps": "^3.49.2",
+		"@types/node": "^18.7.13",
+		"@types/react": "^18.0.17",
+		"@types/react-dom": "^18.0.6",
+		"@typescript-eslint/eslint-plugin": "^5.34.0",
+		"@vitejs/plugin-react": "^2.0.1",
+		"eslint": "^8.22.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-standard-with-typescript": "^22.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.2.5",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-react": "^7.30.1",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.0.7"
+	}
+}
