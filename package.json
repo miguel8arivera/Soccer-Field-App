@@ -11,12 +11,19 @@
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx,"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.10.4",
+		"@emotion/styled": "^11.10.4",
 		"@googlemaps/react-wrapper": "^1.1.35",
+		"@mui/icons-material": "^5.10.3",
+		"@mui/material": "^5.10.3",
+		"@mui/styled-engine-sc": "^5.10.3",
 		"@react-google-maps/api": "^2.12.2",
+		"@types/material-ui": "^0.21.12",
 		"bootswatch": "^5.2.0",
 		"google-map-react": "^2.2.0",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"styled-components": "^5.3.5"
 	},
 	"devDependencies": {
 		"@types/google-map-react": "^2.1.7",

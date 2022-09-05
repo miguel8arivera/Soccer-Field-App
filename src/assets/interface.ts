@@ -3,6 +3,8 @@ export interface SoccerField {
 	star: number;
 	title: string;
 	description: string;
+	subDescription: string;
+	reference: string;
 	price: number;
 	available: boolean;
 	latitude: number;
